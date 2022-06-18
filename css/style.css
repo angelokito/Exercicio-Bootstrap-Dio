@@ -1,0 +1,64 @@
+.Kinoko{
+    color: rgb(140, 127, 255);
+    padding-top: 10px;
+    font-style: italic ;
+    padding: 30px;
+}
+
+body{
+    overflow-y: scroll; /* Show vertical scrollbar */
+    overflow-x: scroll; /* Show horizontal scrollbar */
+ 
+
+}
+
+    /* width */
+::-webkit-scrollbar {
+    width: 20px;
+  
+  }
+
+
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(45, 228, 9); 
+    border-radius: 10px;
+ 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(60, 255, 0); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #37f84793; 
+  
+}
+#menu{
+    position: fixed;
+    width: 100%;
+     /*
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+    */
+}
+.navbar{
+  background-color: #37f84793;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-display: green;
+}
+#parceiros{
+  padding: 20px;
+  color: blueviolet;
+  background-color: rgb(152, 247, 152);
+}
+.bg-footer{
+  background-color: black;
+  color: white;
+}
